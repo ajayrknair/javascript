@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    text-align: center;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.main-holder{
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px gray;
+    width: 600px;
+}
+
+.header {
+    background-color: gray;
+    padding:5px 10px;
+}
+
+
+.footer {
+    background-color: gray;
+    padding:5px 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.primary-sidebar, .secondary-sidebar {
+    display: inline;
+    padding: 100px 15px;
+    width: 25%;
+    background-color: lightgray;
+}
+
+.primary-sidebar {
+    order: 1;
+}
+
+
+.secondary-sidebar {
+    order: 3;
+}
+
+.main-content {
+    width: 50%;
+    order: 2;
+    background-color: darkgray;
+    padding: 100px 15px;
+}

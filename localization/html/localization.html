@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../appCss/localize.css"/>
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.min.css"/>
+    <meta charset="UTF-8">
+    <title>Localization</title>
+    <script src="../scripts/jquery/jquery-3.1.1.min.js"></script>
+    <script src="../scripts/jquery/jquery-localize.js"></script>
+    <script src="../scripts/app/localizeDemo.js"></script>
+</head>
+<body>
+<div class="localize-div">
+    <div class="container">
+
+        <div class="alert alert-success" data-localize="test.welcomeMsg">
+            Welcome to localization demo using jquery localize api
+        </div>
+
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        Static Text
+                    </div>
+                    <div class="panel-body" data-localize="test.staticText">
+                        Displaying some static text
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-primary btn-localize" id="showStaticText" type="button">Show Static Text</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="panel panel-primary">
+                    <div class="panel-heading">
+                        External Text
+                    </div>
+                    <div class="panel-body">
+                        Displaying external text.
+                    </div>
+                    <div class="panel-footer">
+                        <button class="btn btn-primary" id="showExternalText" type="button">Show External Text</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+.parent {
+    border: 1px solid black;
+    height: 800px;
+    width: 600px;
+    padding: 50px;
+}
+
+.parent>.child {
+    background-color: yellow;
+}
+
+.parent>div {
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+   background-color: gray;
+}
+
+#sChild {
+    color: blue;
+    background-color: green;
+}

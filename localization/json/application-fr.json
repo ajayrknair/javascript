@@ -1,0 +1,7 @@
+{
+  "localeLanguage": {
+    "welcomeMsg": "Bienvenue sur la démo de localisation avec jquery localize library",
+    "staticText": "Affichage dun texte statique"
+  }
+
+}

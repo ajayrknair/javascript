@@ -1,0 +1,35 @@
+
+html, body, .jumbotron{
+    heght:100%;
+    width:100%;
+    background-color: white;
+}
+
+.vertical-align {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.player {
+    font-size: 184px;
+    text-align: center;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.game-board {
+    display: flex;
+    align-items: center;
+}
+
+.board-row {
+    display: flex;
+}
